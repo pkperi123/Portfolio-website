@@ -39,17 +39,17 @@ export const EXPERIENCE = [
     year: "2021 - 2023",
     role: "Marketing Executive",
     company: "DAKSH Marketing Team - SASTRA Deemed University",
-    description: `DAKSH is the inter-college Tech fest which is conducted by student community. I have contributed to the Club by bringing sponsors for the events`,
+    description: `DAKSH is an inter-college Tech fest which is conducted by the student community. I have contributed to the Club by bringing sponsors for our events`,
     skills: ["Communication","Teamwork","TIme Management"],
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "Youtube toxic comments remmoval",
+    title: "Youtube toxic comments removal",
     image: project1,
     description:
-      "A LSTM model which detects the sentiments of the comments and removes the toxic comments from the youtube comments section using the Youtube Data API V3. Containerized the model using Docker and deployed it on Render",
+      "A LSTM model that detects the sentiments of the comments and removes the toxic comments from the youtube comments section using the Youtube Data API V3. Containerized the model using Docker and deployed it on Render",
     technologies: ["Flask", "Python", "Youtube Data API v3" ,"Postman","Tensorflow","Docker"],
     link:"https://github.com/pkperi123/YT_toxic_comment_removal",
   },
@@ -66,7 +66,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Framer Motion", "Tailwind CSS"],
+    technologies: ["React", "Framer Motion", "Tailwind CSS","HTML"],
     link:"https://github.com/pkperi123/Portfolio-website"
   },
   {
@@ -74,7 +74,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A RESTful API for an online store that allows users to view, add, update, and delete products using CRUD operations.",
-    technologies: ["node.js", "Express.js", "MongoDB", "Postman"],
+    technologies: ["Node.js", "Express.js", "MongoDB", "Postman"],
     link:"https://github.com/pkperi123/Store-API"
   },
   {
@@ -82,7 +82,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "A RESTful API for managing tasks that allows users to create, read, update, and delete tasks using CRUD operations.",
-    technologies: ["node.js", "Express.js", "MongoDB", "Postman"],
+    technologies: ["Node.js", "Express.js", "MongoDB", "Postman"],
     link:"https://github.com/pkperi123/Task_Manager_API"
   },
   {
