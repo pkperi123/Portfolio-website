@@ -2,33 +2,46 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I am a passionate Undergrad student with a mindset of learning and developing skills of emerging technologies.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Final year student | Full Stack Developer | AI & ML Enthusiast | Tech Enthusiast`;
+
+export const ABOUT_TEXT = `Enthusiastic Bachelors in Computer Science degree student with a solid foundation in fundamentals of Computer science. Proficient in Python, C++ and Java, adept at leveraging data structures and algorithms to solve complex problems. Hands-on experience in developing web applications during academic projects, showcasing analytical and problem-solving abilities. Quick learner with a passion for staying abreast of emerging technologies. Strong teamwork and communication skills fostered through collaborative projects. Eager to contribute innovative solutions as a developer, leveraging academic knowledge and practical skills. Adept at adapting to evolving challenges, committed to delivering high-quality code, and motivated to contribute effectively to a dynamic and collaborative development environment.`;
 
 export const EDUCATION = [
   {
     year: "2021 - Present",
-    role: "B.Tech in Computer Science(SPL in AI & DS)",
-    company: "SASTRA Deemed University-Thanjavur",
+    degree: "B.Tech in Computer Science (spl in AI & DS)",
+    university: "SASTRA Deemed University - Thanjavur",
     description: `CGPA as of 6th sem: 8.927/10`,
     link: "https://www.sastra.edu/",
   },
   {
     year: "2020 - 2021",
-    role: "Higher Secondary School",
-    company: "Montfort School - Kattur",
+    degree: "Higher Secondary School",
+    university: "Montfort School - Kattur",
     description: `Percentage: 94.8%`,
     link:"https://montforttrichy.com/",
   },
   {
     year: "2019 - 2020",
-    role: "Secondary School",
-    company: "Montfort School - Kattur",
+    degree: "Secondary School",
+    university: "Montfort School - Kattur",
     description: `Percentage: 91.6%`,
     link:"https://montforttrichy.com/",
   },
+];
+
+export const EXPERIENCE = [
+  {
+    year: "2021 - 2023",
+    role: "Marketing Executive",
+    company: "DAKSH Marketing Team - SASTRA Deemed University",
+    description: `DAKSH is the inter-college Tech fest which is conducted by student community. I have contributed to the Club by bringing sponsors for the events`,
+    skills: ["Communication","Teamwork","TIme Management"],
+  }
 ];
 
 export const PROJECTS = [
@@ -36,15 +49,15 @@ export const PROJECTS = [
     title: "Youtube toxic comments remmoval",
     image: project1,
     description:
-      "A LSTM model with detectts the sentiments of the comments and removes the toxic comments from the youtube comments section using the Youtube Data API V3. Containerized the model using Docker and deployed it on Render",
-    technologies: ["Flask", "Python", "Youtube Data API v3" ,"Postamn","Tensorflow","Docker"],
+      "A LSTM model which detects the sentiments of the comments and removes the toxic comments from the youtube comments section using the Youtube Data API V3. Containerized the model using Docker and deployed it on Render",
+    technologies: ["Flask", "Python", "Youtube Data API v3" ,"Postman","Tensorflow","Docker"],
     link:"https://github.com/pkperi123/YT_toxic_comment_removal",
   },
   {
     title: "PDF-BOT",
     image: project2,
     description:
-      "Using LLM(LaMini-T5-738M) model fromHugging face answering the question related to the PDF which is fed to the model.",
+      "Using LLM(LaMini-T5-738M) model from Hugging face answering the question related to the PDF which is fed to the model.",
     technologies: ["Python","Natural Language Processing"],
     link:"https://github.com/pkperi123/PDF-Bot",
   },
@@ -54,29 +67,29 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Framer Motion", "Tailwind CSS"],
-    link:"ggg"
+    link:"https://github.com/pkperi123/Portfolio-website"
   },
   {
     title: "Store API",
     image: project4,
     description:
       "A RESTful API for an online store that allows users to view, add, update, and delete products using CRUD operations.",
-    technologies: ["HTML", "CSS", "node.js", "Express.js", "MongoDB", "Postman"],
+    technologies: ["node.js", "Express.js", "MongoDB", "Postman"],
     link:"https://github.com/pkperi123/Store-API"
   },
   {
     title: "Task Manager API",
-    image: project4,
+    image: project5,
     description:
       "A RESTful API for managing tasks that allows users to create, read, update, and delete tasks using CRUD operations.",
-    technologies: ["HTML", "CSS", "node.js", "Express.js", "MongoDB", "Postman"],
+    technologies: ["node.js", "Express.js", "MongoDB", "Postman"],
     link:"https://github.com/pkperi123/Task_Manager_API"
   },
   {
     title: "Tindog Website",
-    image: project4,
+    image: project6,
     description:
-      "Utilized bootstrap framework to develop thewebsite and Implemented a basic a http server forhandling GET request",
+      "Utilized bootstrap framework to develop the website and implemented a basic a http server for handling GET request",
     technologies: ["HTML", "CSS", "Bootstrap"],
     link:"https://github.com/pkperi123/bootstrap-tindog"
   },
@@ -85,6 +98,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Trichy, Tamil Nadu, India",
-  phoneNo: "+12 4555 666 00 ",
+  phoneNo: "+91 8667272746 ",
   email: "pkperi1210@gmail.com",
 };

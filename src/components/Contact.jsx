@@ -15,11 +15,15 @@ const Contact = () => {
             initial={{opacity: 0, x: -100}}
             transition={{duration: 1}}
             className="my-4">{CONTACT.address}</motion.p>
+            <a href={`mailto: ${CONTACT.email}`}>
             <motion.p 
             whileInView={{opacity: 1, x: 0}}
             initial={{opacity: 0, x: 100}}
             transition={{duration: 1}}
-            className="my-4">{CONTACT.email}</motion.p>
+            className="my-4"
+            >{CONTACT.email}</motion.p>
+            </a>
+            
             <p className="my-4">{CONTACT.phoneNo}</p>
         </div>
       

@@ -11,27 +11,27 @@ const Education = () => {
         className="my-20 text-center text-4xl">Education</motion.h1>
     
         <div>
-          { EDUCATION.map((experience,index)=>(
+          { EDUCATION.map((education,index)=>(
             <div key={index} className = "mb-8 flex flex-wrap lg:justify-center">
               <motion.div
               whileInView={{opacity: 1, x: 0}}
               initial={{opacity: 0, x: -100}}
               transition={{duration: 1}} 
               className='w-full lg:w-1/4'>
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <p className="mb-2 text-sm text-neutral-400">{education.year}</p>
               </motion.div>
               <motion.div 
               whileInView={{opacity: 1, x: 0}}
               initial={{opacity: 0, x: 100}}
               transition={{duration: 1}}
               className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{experience.role} 
+              <h6 className="mb-2 font-semibold">{education.degree} 
                 <br/>
-                <a href={experience.link}>
-                <span className="text-sm text-purple-100">{experience.company}</span>
+                <a href={education.link}>
+                <span className="text-sm text-purple-100">{education.university}</span>
                 </a>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <p className="mb-4 text-neutral-400">{education.description}</p>
               </motion.div>
             </div>
           )) }
